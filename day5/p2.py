@@ -1,6 +1,9 @@
-from operator import itemgetter   
-list = [(4, 5, 1), (6, 1, 5), (7, 4, 2), (6, 2, 4)]  
-print("The original list is : " + str(list)) 
-N =int(input ("Enter Nth Element:"))
-list.sort(key = itemgetter(N))  
-print("List after sorting tuple by Nth index sort : " + str(list)) 
+def replace(List):
+    for i in range(size-1):
+        List[i] = max(List[i+1:])
+    return List
+size = int(input("Enter the size of the list: "))
+List = []
+for i in range(size):
+    List.append(int(input("Enter the element number " + str(i+1) + " in the List: ")))
+print("List after replacing element with greatest element: ", replace(List))
