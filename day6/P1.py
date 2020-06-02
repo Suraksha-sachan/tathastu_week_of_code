@@ -21,7 +21,7 @@ def del( str):
     l = lps(str) 
     return (n - l)
 
-if __name__ == "__main__": 
+
       
-    str =input("ENTER STRING: ")
-    print( "Minimum number of deletions = ", del(str))
+str =input("ENTER STRING: ")
+print( "Minimum number of deletions = ", del(str))
