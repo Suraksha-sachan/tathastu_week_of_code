@@ -1,6 +1,19 @@
-n=int(input("Enter Value of n:"))
-for i in range(n): 
-    print("*"*(n-i)+"  "*i+"*"*(n-i))            
-for i in range(2,n+1):
-    print("*"*i+"  "*(n-i)+"*"*i)    
-        
+for i in range(5):
+    for j in range(10):
+        if(j < 5-i):
+            print("*", end=" ")
+        elif(j>=5+i):
+            print("*", end=" ")
+        else:
+            print(" ",end=" ")
+    print()
+
+for i in range(5):
+    for j in range(10):
+        if(j <= i):
+            print("*", end=" ")
+        elif(j >= 9-i):
+            print("*", end=" ")
+        else:
+            print(" ",end=" ")
+    print()
