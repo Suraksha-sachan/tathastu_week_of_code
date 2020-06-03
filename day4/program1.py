@@ -1,9 +1,9 @@
-def count(tuple, x): 
+def count(tuple, ele): 
     count = 0
     for i in tuple: 
-        if (i == x): 
+        if (i == ele): 
             count = count + 1
     return count     
-tuple = (10, 8, 5, 2, 10, 15, 10, 8, 5, 8, 8, 2)
+tuple = (1, 2, 5, 3, 1, 5, 4, 8, 6, 4, 7, 3)
 ele=int(input("ENTER ELEMENT TO SEARCH:"))
 print(ele,"present in list ",count(tuple, ele),"times") 
