@@ -12,10 +12,9 @@ print("Run of Player1 after Play 60 More Ball:" , player1*2)
 print("Run of Player2 after Play 60 More Ball:" , player2*2)
 print("Run of Player3 after Play 60 More Ball:" , player3*2)
 
-max_six1=int(player1/6)
-max_six2=int(player2/6)
-max_six3=int(player3/6)
-
+max_six1=player1//6
+max_six2=player2//6
+max_six3=player3//6
 print("Max Six of Player1 :" , max_six1)
 print("Max Six of Player2 :" , max_six2)
 print("Max Six of Player3 :" , max_six3)
