@@ -1,5 +1,7 @@
-for i in range(8):
-    for j in range(8):
+def suraksha(m,n):
+    
+  for i in range(m):
+    for j in range(n):
         if i==j :
             print("*", end=' ')
         elif i+j==7 :
@@ -7,3 +9,5 @@ for i in range(8):
         else:
             print("", end=' ')
     print()
+
+suraksha(8,8)
