@@ -1,4 +1,4 @@
-def sortEvenOdd(List):
+def sor(List):
     odd = []
     even = []
     for x in List:
@@ -11,4 +11,4 @@ size = int(input("Enter the number of elements you want to add in the array: "))
 List = []
 for i in range(size):
     List.append(int(input("Enter the element number " + str(i + 1) + " in the list: ")))
-print("The list of numbers after sorting them according to given condition is", str(sortEvenOdd(List))[1:-1])
+print("The list of numbers after sorting them according to given condition is", str(sort(List))[1:-1])
