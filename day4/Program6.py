@@ -1,6 +1,6 @@
-size = int(input("Enter Size dictonary: "))
+length = int(input("Enter Size dictonary: "))
 dict = []
-for i in range(size):
+for i in range(length):
     dict.append(input("Enter the word " + str(i + 1) + ": "))
 size = int(input("Enter Size of array: "))
 array = []
